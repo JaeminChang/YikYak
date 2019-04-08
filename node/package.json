@@ -9,8 +9,16 @@
   "author": "Michael",
   "license": "ISC",
   "dependencies": {
+    "aws-sdk": "^2.430.0",
     "cors": "^2.8.5",
+    "dotenv": "^7.0.0",
     "express": "^4.16.4",
-    "mssql": "^5.0.4"
+    "formidable": "^1.2.1",
+    "fs": "0.0.1-security",
+    "mime-types": "^2.1.22",
+    "mssql": "^5.0.4",
+    "request": "^2.88.0",
+    "request-promise": "^4.2.4",
+    "uuid": "^3.3.2"
   }
 }

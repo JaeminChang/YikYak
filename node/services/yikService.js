@@ -1,9 +1,6 @@
 const sql = require("mssql");
 const { poolPromise } = require("../db");
 
-// const config =
-//   "Data Source=LAPTOP-HCI746K2\\SQLEXPRESS;Initial Catalog=PersonalProject;User ID=Michael;Password=m6201994m";
-
 const insertYik = data => {
   return new Promise((resolve, reject) => {
     return poolPromise
